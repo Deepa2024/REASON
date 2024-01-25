@@ -112,7 +112,7 @@ def prompting(file_name, a):
     list3 = []
     list5 = []
     client = openai
-    openai.api_key = "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"
+    openai.api_key = "sk-6EeDqIO8JI2xjHaTSkqdT3BlbkFJYIKP0RQS3tItTj3rqdw"
 
     with open(file_name, 'r') as f:
         data = json.load(f)
