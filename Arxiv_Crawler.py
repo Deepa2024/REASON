@@ -74,7 +74,7 @@ def get_first_arxiv_page_url(citation_text, max_retries=3, delay_seconds=1):
           response = requests.request(
                     'POST',
                     'https://realtime.oxylabs.io/v1/queries',
-                    auth=('mistral1', 'MixtralByMistral0'),
+                    auth=('mistral1', 'pswd'),
                     json=payload,
                 )
           r = response.json()
