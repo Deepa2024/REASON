@@ -153,7 +153,7 @@ def prompting(file_name):
                     headers = {
                         "accept": "application/json",
                         "content-type": "application/json",
-                        "authorization": "Bearer pplx-5acad8d03b3480e74207dfcf7383fc72cd6104a7f8b0292"
+                        "authorization": "Your api"
                     }
                     response = requests.post(url, json=payload, headers=headers)
                     time.sleep(1)
