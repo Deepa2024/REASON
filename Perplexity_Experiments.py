@@ -202,7 +202,7 @@ def prompting(file_name):
                     headers = {
                         "accept": "application/json",
                         "content-type": "application/json",
-                        "authorization": "Bearer pplx-5acad8d03b3480e74207dfcf7383fc72cd6104a7f8b0292"
+                        "authorization": "Bearer key"
                     }
                     response = requests.post(url, json=payload, headers=headers)
                     time.sleep(1)
@@ -251,7 +251,7 @@ def prompting(file_name):
                     headers = {
                         "accept": "application/json",
                         "content-type": "application/json",
-                        "authorization": "Bearer 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"
+                        "authorization": "Bearer key"
                     }
                     response = requests.post(url, json=payload, headers=headers)
                     time.sleep(1)
@@ -292,7 +292,7 @@ def prompting(file_name):
                         headers = {
                           "accept": "application/json",
                           "content-type": "application/json",
-                          "authorization": "Bearer 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"
+                          "authorization": "Bearer key"
                         }
                         r1 = requests.post(url, json=payload, headers=headers)
                         time.sleep(1)
@@ -345,7 +345,7 @@ def prompting(file_name):
                     headers = {
                         "accept": "application/json",
                         "content-type": "application/json",
-                        "authorization": "Bearer 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"
+                        "authorization": "Bearer key"
                     }
                     response = requests.post(url, json=payload, headers=headers)
                     time.sleep(1)
@@ -386,7 +386,7 @@ def prompting(file_name):
                         headers = {
                           "accept": "application/json",
                           "content-type": "application/json",
-                          "authorization": "Bearer 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"
+                          "authorization": "Bearer key"
                         }
                         r1 = requests.post(url, json=payload, headers=headers)
                         time.sleep(1)
@@ -433,7 +433,7 @@ def prompting(file_name):
                             headers = {
                             "accept": "application/json",
                             "content-type": "application/json",
-                            "authorization": "Bearer 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"
+                            "authorization": "Bearer key"
                             }
                             r2 = requests.post(url, json=payload, headers=headers)
                             time.sleep(1)
